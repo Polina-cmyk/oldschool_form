@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://wallpaperaccess.com/full/1255207.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.formholder {
+  background-color: rgba(0, 10, 2, 0.7);
+  width: 40%;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 20px 30px;
+  color: rgb(65, 192, 82);
+}
+
+h1 {
+  font-size: 35px;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.input-group label {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.input-group input {
+  background: rgba(4, 32, 10, 0.5);
+  border: 1px solid rgba(35, 116, 46, 0.5);
+  outline: none;
+  font-size: 15px;
+  color: rgb(65, 192, 82);
+  padding: 5px;
+}
+
+.input-group input:focus {
+  border: 2px solid rgba(35, 116, 46, 0.8);
+  padding: 4px;
+}
+
+button {
+  background-color: rgba(35, 116, 46, 0.5);
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(1, 7, 2, 0.8);
+  padding: 6px;
+  border: 1px solid rgba(4, 32, 10, 0.5);
+  outline: none;
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 255, 64);
+  color: black;
+}
+
+button:active {
+  border: 1px solid rgb(0, 255, 64);
+  background-color: rgba(35, 116, 46, 0.5);
+  color: black;
+}
