@@ -6,6 +6,7 @@
 
 body {
   font-family: 'DotGothic16', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .container {
@@ -67,6 +68,7 @@ h1 {
 button {
   background-color: rgba(35, 116, 46, 0.5);
   font-family: 'DotGothic16', sans-serif;
+  letter-spacing: 0.1em;
   font-size: 15px;
   font-weight: bold;
   color: rgba(1, 7, 2, 0.8);
