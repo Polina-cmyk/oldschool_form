@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/style/reset.css" />
     <link rel="stylesheet" href="/style/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -12,12 +12,13 @@
       rel="stylesheet"
     />
     <title>another form</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="formholder">
         <h1>hello/</h1>
-        <form>
+        <form id="form">
           <div class="input-group">
             <label class="email-labell">email/</label>
             <input
@@ -25,6 +26,8 @@
               class="email-input"
               name="email"
               autocomplete="off"
+              id="email"
+              required
             />
           </div>
           <div class="input-group">
@@ -34,15 +37,17 @@
               class="name-input"
               name="name"
               autocomplete="off"
+              id="name"
             />
           </div>
           <div class="input-group">
             <label class="password-labell">password/</label>
-            <input type="password" class="email-input" />
+            <input type="password" class="email-input" id="password" />
           </div>
           <button type="submit">log in/</button>
         </form>
       </div>
+      <div id="message"></div>
     </div>
   </body>
 </html>

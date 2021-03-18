@@ -11,8 +11,10 @@ body {
 
 .container {
   display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100%;
   align-items: center;
   justify-content: center;
   background-image: url('https://wallpaperaccess.com/full/1255207.jpg');
@@ -88,4 +90,12 @@ button:active {
   border: 1px solid rgb(0, 255, 64);
   background-color: rgba(35, 116, 46, 0.5);
   color: black;
+}
+
+#message {
+  color: rgb(221, 34, 34);
+  font-size: 30px;
+  padding: 10px;
+  /* background-color: rgba(0, 0, 0, 0.705); */
+  margin-top: 10px;
 }
